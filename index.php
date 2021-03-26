@@ -13,7 +13,7 @@
 <div class="virus">
 
 	<div class="container">
-		<h1><a href="index.html">EDU-COVID</a></h1>
+		<h1><a href="index.php">EDU-COVID</a></h1>
 	
 		
 
@@ -22,7 +22,7 @@
 			<div class="container">
 		
 			<ul>
-			<li class="active"><a href="home.html">HOME</a></li>
+			<li class="active"><a href="home.php">HOME</a></li>
 			<li ><a href="cov.html">COVID-19</a></li>
 			<li><a href="pencegahan.html">Pencegahan COVID-19</a></li>
 			<li><a href="data.html">Data dan Statistik</a></li>
