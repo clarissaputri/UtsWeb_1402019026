@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WebsiteKu</title>
+	<link rel="stylesheet" type="text/css" href="css/design.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+<!-- header -->
+<div class="wrapper">
+<div class="virus">
+
+	<div class="container">
+		<h1><a href="home.html">EDU-COVID</a></h1>
+	
+		
+
+</div>
+		<header>
+			<div class="container">
+		
+			<ul>
+			<li ><a href="home.html">HOME</a></li>
+			<li><a href="pencegahan.html">Pencegahan COVID-19</a></li>
+			<li class="active"><a href="data.html">Data dan Statistik</a></li>
+			<li><a href="kuis.html">Kuis</a></li>
+			<li><a href="kontak.html">Kontak</a></li>
+		</ul>
+	
+	</div>
+
+	</div>
+</header>
+<div class="data">
+<script>
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	theme: "light2", // "light1", "light2", "dark1", "dark2"
+	title:{
+		text: "Peta Sebaran COVID-19"
+	},
+	axisY: {
+		title: "Jumlah"
+	},
+	data: [{        
+		type: "column",  
+		showInLegend: true, 
+		legendMarkerColor: "grey",
+		
+		dataPoints: [      
+			{ y: 1482559, label: "Terkonfirmasi" },
+			{ y: 125279,  label: "Kasus Aktif" },
+			{ y: 1317199,  label: "Sembuh" },
+			{ y: 40081,  label: "Meninggal" },
+			{ y: 12330238,  label: "Total Spesimen Diperiksa" },
+			{ y: 8229683, label: "Total Orang Diperiksa" },
+			{ y: 6389837,  label: "Vaksinasi ke-1" },
+			{ y: 2941016,  label: "Vaksinasi ke-2" }
+		]
+	}]
+});
+chart.render();
+
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 400px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+	
+</div>
+<!-- banner -->
+
+<!--Footer-->
+<footer>
+<div class="container">
+	<small>Copyright &copy; 2021 - Clarissa Putri Aurellia. All Rights Reserved</small>
+</div>
+</footer>
+</body>
+</html>
