@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.banner{
+height: 100vh;
+width: 100%;
+	background-image: url('../foto/virus.jpg');
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.banner h2{
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid #fff;
+}
+.virus {
+	padding:5px 0;
+	background-color: #01647B;
+	color: #fff;
+
+}
+.virus h1{
+	margin-left: 40px;
+}
+header ul{
+	
+	float: right;
+	background-color: #01647B;
+}
+header ul li{
+	display: inline-block;
+	background-color: #01647B;
+}
+header ul li a{
+	padding: 20px 25px;
+	display: inline-block;
+	color:  #fff;
+	
+}
+p {
+	margin-left: 80px;
+	z-index: 1;
+	width: 100%;
+	height: 50%;
+
+	
+}
+.cov{
+	width: 100%;
+	height: 100vh;
+	background-image: url('../foto/virus.jpg');
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0px;
+	color: #fff;
+	position: relative;
+
+}
+.cov:after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(10, 45, 53, .8);
+
+}
+
+
+.data{
+		margin-top: 80px;
+	}
+.form-grup{
+padding: 1px;
+margin-bottom: 1px;
+margin-right: 1px;
+margin-top: 50px;
+margin-left: 50px;
+}
+input[type=text], input[type=email]{
+	border:1px solid;
+	padding: 0px;
+	border-radius: 10px;
+	width: 40%;
+	height: 30px;
+	font-size: 15px;
+	font-family: inherit;
+	margin-bottom: 0px;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+button[type=submit]{
+	font-size: 20px;
+	border-radius: 10px;
+	width: 70px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-left: 480px;
+	margin-bottom: 0px;
+
+}
+
+textarea{
+	text-align: left;
+	margin-left: 0;
+	border-radius: 10px;
+	width: 40%;
+	height: 100px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	}
+	.kontak{
+		background-image: url('../foto/tanya.jpg');
+		width: 100%;
+		height: 100vh;
+		margin-top: 0px;
+		background-size: cover;
+	}
+	.cegah{
+	background-image: url('../foto/virus.jpg');
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	position: relative;
+
+}
+
+
+.cegah img{
+width: 300px;
+position: absolute;
+
+z-index: 1;
+
+
+}
+.cegah video{
+	margin-top: 0px;
+margin-left: 600px;
+}
+.cegah1 p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 17px;
+	color: #fff;
+	margin-left: 50px;
+	
+}
+.cegah1 h3{
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: 200px;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	border: 2px solid;
+
+}
+.soal{
+	margin-top: 50px;
+	background-image:url('../foto/virus.jpg') ;
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	
+}
+.kuis{
+	color: #fff;
+	margin-left: 60px;
+}
+.tombol{
+	width: 70px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-left: 480px;
+
+}
